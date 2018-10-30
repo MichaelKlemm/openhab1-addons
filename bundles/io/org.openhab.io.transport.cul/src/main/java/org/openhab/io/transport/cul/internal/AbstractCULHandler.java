@@ -175,6 +175,7 @@ public abstract class AbstractCULHandler<T extends CULConfig> implements CULHand
 
         registerListener(sendThread);
         sendThread.start();
+        requestCreditReport();
     }
 
     @Override
